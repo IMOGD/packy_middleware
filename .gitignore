@@ -1,0 +1,27 @@
+.idea
+.idea.*
+
+
+### Node ###
+# Logs
+logs
+*.log
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Dependency directories
+node_modules/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# dotenv environment variable files
+.env
+.env.*
+
+dist
+
+
+
+# End of https://www.toptal.com/developers/gitignore/api/macos,intellij,node

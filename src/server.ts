@@ -6,8 +6,8 @@ import cors from '@koa/cors';
 
 export const getKoa = async () =>{
   const app = new Koa();
-  app.use(KoaHelmet());
-  app.use(cors());
+  // app.use(KoaHelmet());
+  // app.use(cors());
   app.use(bodyParser())
   app.use(ctx=>{
     ctx.body = 'hi'
